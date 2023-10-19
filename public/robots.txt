@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: /foto_album_thumbnails/
+Disallow: /js/
+Disallow: /img/
+Disallow: /css/
+Disallow: /movies/
+Disallow: /base/
