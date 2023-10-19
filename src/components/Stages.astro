@@ -1,0 +1,23 @@
+---
+import stages from '@/content/lists/stages.json';
+---
+<table class="design" cellspacing="0">
+    <thead>
+        <tr>
+            <th>Docent</th>
+            <th>Locatie</th>
+            <th>Datum</th>
+        </tr>	
+    </thead>
+    <tbody>
+    {
+        stages.map(({id, docent, locatie, tijd, date, organisatie, bijzonderheden}) => (
+            <tr>
+                <td><a href="/stage/[seo_docent]/[seo_locatie]/nr{id}" title="Organisatie: {organisatie}">{docent}</a></td>			
+                <td><a href="/stage/[seo_docent]/[seo_locatie]/nr{id}" title="Organisatie: {organisatie}">{locatie}</a></td>			
+                <td>{date} {tijd}</td>
+            </tr>
+        ))
+    }
+    </tbody>
+</table>

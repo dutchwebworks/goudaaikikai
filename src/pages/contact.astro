@@ -1,0 +1,81 @@
+---
+import Layout from '@/layouts/Layout.astro';
+---
+
+<Layout title="Foto albums">
+    <h2>Contact</h2>
+
+    <p class="inleiding">Door onderstaand formulier in te vullen zullen wij zo spoedig mogelijk contact met u opnemen.</p>
+
+    <p class="status">[status]</p>
+
+    <h3>Uw gegevens</h3>
+
+    <form name="contact" id="contact" method="post" action="" inert>
+        <table cellspacing="0">
+            <tr>
+                    <td>Naam*</td>
+                    <td><input name="naam" type="text" id="naam" size="40"  class="textfield validateRequired" title="Uw naam is een verplicht invulveld" /></td>
+            </tr>
+            <tr>
+                    <td>Adres</td>
+                    <td><input name="adres" type="text" id="adres" size="40" class="textfield" /></td>
+            </tr>
+            <tr>
+                    <td>Postcode</td>
+                    <td><input name="postcode" type="text" id="postcode" size="40" class="textfield" /></td>
+            </tr>   				
+            <tr>
+                    <td>Woonplaats</td>
+                    <td><input name="woonplaats" type="text" id="woonplaats" size="40" class="textfield" /></td>
+            </tr>
+
+            <tr>
+                    <td>Telefoon</td>
+                    <td><input name="telefoon" type="text" id="telefoon" size="40" class="textfield" /></td>
+            </tr>
+            <tr>
+                    <td>Mobiel</td>
+                    <td><input name="mobiel" type="text" id="mobiel" size="40" class="textfield" /></td>
+            </tr>
+            <tr>
+                    <td>E-mail*</td>
+                    <td><input name="replyto" type="text" id="replyto" size="40" class="textfield validateEmail validateRequired" title="Een correct ingevuld email adres is verplicht" /></td>
+            </tr>
+            <tr>
+                    <td>Website</td>
+                    <td><input name="website" type="text" id="website" value="http://" size="40" class="textfield validateUrl" /></td>
+            </tr>
+            <tr valign="top">
+                    <td>Opmerkingen*</td>
+                    <td>
+                        <textarea name="opmerkingen" cols="40" rows="10"  class="textfield validateRequired" title="Een op- aanmerking is verplicht"><!-- BEGIN BOOK_INFO -->Boek: [auteur] ([titel])<!-- END BOOK_INFO --></textarea>
+                    </td>
+            </tr>
+            <tr valign="top">
+                <td>Code*</td>
+                <td>
+                    <img src="/base/visual-captcha.php" id="captchaImg" alt="Captcha image" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>
+                    <input type="text" name="user_code" id="user_code" size="60" class="textfield validateRequired" title="Typ de juiste code over" />
+                    <p>Typ bovenstaande <a href="http://nl.wikipedia.org/wiki/Captcha" target="_blank" title="Wat is dit?">captcha-code</a> over om het formulier te versturen.</p>
+                </td>
+            </tr>                
+        </table>
+
+        <p>
+            <input name="submit" type="submit" id="submit" value="Verstuur" />
+            <input name="reset" type="reset" id="reset" value="Wissen" />
+        </p>
+
+        <p class="status">Velden met een * (donkerder) zijn verplicht</p>
+    </form>
+</Layout>
+
+<style>
+
+</style>

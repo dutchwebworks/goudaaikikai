@@ -1,0 +1,37 @@
+[
+    {
+        "id": "3",
+        "name": "JBN",
+        "beschrijving": "Judo Bond Nederland. Organisatie voor aikido, jiu-jitsu en judo. Gouda Aikikai is aangesloten bij de JBN.",
+        "url": "http:\/\/www.jbn.nl\/",
+        "date": "2005-04-10 16:09:07"
+    },
+    {
+        "id": "11",
+        "name": "Hikari",
+        "beschrijving": "Aikidolessen bij Hikari worden gegeven door Wilko Lok, 4e Dan",
+        "url": "http:\/\/www.hikari.nl",
+        "date": "2009-10-18 10:20:54"
+    },
+    {
+        "id": "12",
+        "name": "Aikidostichting Breda-Tilburg",
+        "beschrijving": "Aikidolessen van docenten Harry Kat, Maarten &amp; Tessa Huiskamp",
+        "url": "http:\/\/www.aikidostichting.nl",
+        "date": "2007-11-10 12:04:45"
+    },
+    {
+        "id": "13",
+        "name": "Ki-no-nagare",
+        "beschrijving": "Ki-no-nagare is Japans voor stromende energie. Stoelmassage laat uw energie weer stromen",
+        "url": "http:\/\/www.ki-no-nagare.nl\/",
+        "date": "2006-11-16 19:48:29"
+    },
+    {
+        "id": "7",
+        "name": "Musubi",
+        "beschrijving": "Musubi, aikidovereniging in de Bollenstreek",
+        "url": "http:\/\/www.musubi.nl",
+        "date": "2004-12-21 21:14:04"
+    }
+]

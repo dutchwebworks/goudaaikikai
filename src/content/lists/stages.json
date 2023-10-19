@@ -1,0 +1,1001 @@
+[
+    {
+        "id": "261",
+        "docent": "Zomerschool met Claude Pellerin",
+        "locatie": "Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "07.00 - 19.00 uur",
+        "date": "20110709235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "200",
+        "docent": "Claude Pellerin",
+        "locatie": "Camping/Sporthal ‘Jacobus Hoeve’, Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "Gehele dag",
+        "date": "20090709235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "221",
+        "docent": "Claude Pellerin",
+        "locatie": "Picardie 36, Gennep",
+        "tijd": "15.00-18.00 uur",
+        "date": "20130202235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "224",
+        "docent": "Donovan Waite",
+        "locatie": "Sportcomplex de Braken, Boxtel",
+        "tijd": "20.00-22.00 uur",
+        "date": "20090918235100",
+        "organisatie": "Ando",
+        "bijzonderheden": "35 euro per dag"
+    },
+    {
+        "id": "225",
+        "docent": "Donovan Waite",
+        "locatie": "Sportcomplex de Braken, Boxtel",
+        "tijd": "10.00-12.00 en 15.00-17.00 uur",
+        "date": "20090919235300",
+        "organisatie": "Ando",
+        "bijzonderheden": "35 euro per dag"
+    },
+    {
+        "id": "226",
+        "docent": "Donovan Waite",
+        "locatie": "Sportcomplex de Braken, Boxtel",
+        "tijd": "10.00-12.00 uur",
+        "date": "20090920235400",
+        "organisatie": "Ando",
+        "bijzonderheden": "35 euro per dag"
+    },
+    {
+        "id": "284",
+        "docent": "Pierre Geraedts",
+        "locatie": "Picardie 36, Gennep",
+        "tijd": "10.30 - 12.00 en 13.30 - 15.30 uur",
+        "date": "20121228235500",
+        "organisatie": "Aikido Dojo Gennep",
+        "bijzonderheden": "Kerststage"
+    },
+    {
+        "id": "65",
+        "docent": "Claude Pellerin",
+        "locatie": "Noord-Nederland",
+        "tijd": "09.00-12.00 uur",
+        "date": "20110213235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "240",
+        "docent": "Danexamens",
+        "locatie": "Sporthal Rustenburg, Fürglerplein 3, Amersfoort",
+        "tijd": "09.00 - 13.00 uur",
+        "date": "20130303235900",
+        "organisatie": "JBN",
+        "bijzonderheden": ""
+    },
+    {
+        "id": "204",
+        "docent": "Morito Suganuma",
+        "locatie": "Sportzaal Rustenburg, Fürglerplein 3, Amersfoort",
+        "tijd": "10.00-12.15 en 13.30-15.45 uur",
+        "date": "20100704235900",
+        "organisatie": "Itokan",
+        "bijzonderheden": "Weekendseminar, 42,50 euro per dag"
+    },
+    {
+        "id": "205",
+        "docent": "Morito Suganuma",
+        "locatie": "Sporthal Zielhorst, Amersfoort",
+        "tijd": "Gehele dag",
+        "date": "20090531235900",
+        "organisatie": "Itokan",
+        "bijzonderheden": "Pinksterseminar"
+    },
+    {
+        "id": "206",
+        "docent": "Morito Suganuma",
+        "locatie": "Sportzaal Rustenburg, Fürglerplein 3, Amersfoort",
+        "tijd": "10.00-12.15 en 13.30-15.45 uur",
+        "date": "20100703235900",
+        "organisatie": "Itokan",
+        "bijzonderheden": "Weekendseminar"
+    },
+    {
+        "id": "218",
+        "docent": "Hans Belder, Carel Zappeij & Christiaan Zandt",
+        "locatie": "Training Centre Kenkon, Nieuwe Kanaal 11, Wageningen",
+        "tijd": "14.00-17.00 uur",
+        "date": "20100220233700",
+        "organisatie": "JBN",
+        "bijzonderheden": "Overbruggingsstage Inner Aikido ter kennismaking met Inner Aikido Stages"
+    },
+    {
+        "id": "294",
+        "docent": "Leonard van Kuijk & Harry Kat",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 12.00 uur",
+        "date": "20130512235900",
+        "organisatie": "JBN district Zuid-Nederland",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "293",
+        "docent": "IAS stage",
+        "locatie": "Jarig van de Wielenwei 42, Een-West",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20130428235900",
+        "organisatie": "Inner Aikido School",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "77",
+        "docent": "Seiichi Sugano",
+        "locatie": "n.n.b.",
+        "tijd": "gehele dag",
+        "date": "20100507235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Inner Aikido Stage"
+    },
+    {
+        "id": "223",
+        "docent": "Seiichi Sugano",
+        "locatie": "n.n.b.",
+        "tijd": "gehele dag",
+        "date": "20100510235100",
+        "organisatie": "JBN",
+        "bijzonderheden": "Inner Aikido Stage"
+    },
+    {
+        "id": "202",
+        "docent": "Claude Pellerin",
+        "locatie": "Camping/Sporthal ‘Jacobus Hoeve’, Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "Gehele dag",
+        "date": "20090711235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "197",
+        "docent": "Tessa & Maarten Huiskamp",
+        "locatie": "Kennemer sporthal, IJsbaanlaan 4a, Haarlem",
+        "tijd": "14.00-17.00 uur",
+        "date": "20110618235900",
+        "organisatie": "Aikido-ryu Jan Rusman",
+        "bijzonderheden": "Kosten 5 euro"
+    },
+    {
+        "id": "198",
+        "docent": "Voorbereidende danexamentraining",
+        "locatie": "JBN Bondscentrum, Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00-13.00 uur",
+        "date": "20130126235900",
+        "organisatie": "JBN",
+        "bijzonderheden": ""
+    },
+    {
+        "id": "219",
+        "docent": "Claude Pellerin / Michel Prouvèze",
+        "locatie": "Papendal",
+        "tijd": "09.00 -12.00 uur",
+        "date": "20110403235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "187",
+        "docent": "Jan Brand",
+        "locatie": "Dojo Lu Gia Jen, Baambruggestraat 6, Den Haag",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20121209235900",
+        "organisatie": "Lu Gia Jen",
+        "bijzonderheden": "Aikido Winterstage. Kosten 5 euro"
+    },
+    {
+        "id": "54",
+        "docent": "Seiichi Sugano",
+        "locatie": "n.n.b.",
+        "tijd": "gehele dag",
+        "date": "20100508235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Inner Aikido Stage"
+    },
+    {
+        "id": "203",
+        "docent": "Claude Pellerin",
+        "locatie": "Camping/Sporthal ‘Jacobus Hoeve’, Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "Ochtend",
+        "date": "20090712235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "47",
+        "docent": "Yudansha training",
+        "locatie": "JBN Bondscentrum, Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00-13.00 uur",
+        "date": "20110507235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Uitsluitend toegankelijk voor yudansha"
+    },
+    {
+        "id": "199",
+        "docent": "Chris de Jongh, Pierre Geraedts, Carel Zappeij",
+        "locatie": "JBN Bondscentrum, Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00-13.00 uur",
+        "date": "20090627235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Yudanshastage"
+    },
+    {
+        "id": "277",
+        "docent": "Leraar onbekend",
+        "locatie": "Vondelstraat 35, Alkmaar",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20120915235900",
+        "organisatie": "JBN district Noord-Holland",
+        "bijzonderheden": "Districtsstage"
+    },
+    {
+        "id": "283",
+        "docent": "Pierre Geraedts",
+        "locatie": "Picardie 36, Gennep",
+        "tijd": "10.30 - 12.00 en 13.30 - 15.30 uur",
+        "date": "20121227235900",
+        "organisatie": "Aikido Dojo Gennep",
+        "bijzonderheden": "Kerststage"
+    },
+    {
+        "id": "270",
+        "docent": "M. Fukakusa & Pierre Geraedts",
+        "locatie": "Nationaal Sportcentrum Papendal, Papendallaan 60, Arnhem",
+        "tijd": "10.00 - 11.00, 11.15 - 12.15, 12.45 - 13.45 uur",
+        "date": "20120422235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale stage, 30 euro per dag, 55 euro per 2 dagen"
+    },
+    {
+        "id": "268",
+        "docent": "Harry Kat",
+        "locatie": "Sportcomplex Oosterhout \r\nVondelstraat 35, Alkmaar",
+        "tijd": "14,00 - 17.00 uur?",
+        "date": "20121216235900",
+        "organisatie": "Musachi",
+        "bijzonderheden": "Kosten 5 euro?"
+    },
+    {
+        "id": "271",
+        "docent": "Shishiya Sensei",
+        "locatie": "Sporthal de Ackers, Groeneweg 27, Bergschenhoek",
+        "tijd": "20.30 - 22.00 uur",
+        "date": "20120608235900",
+        "organisatie": "Enbukan",
+        "bijzonderheden": "35 euro per dag"
+    },
+    {
+        "id": "272",
+        "docent": "Shishiya Sensei",
+        "locatie": "Dojo Physical, Vening Meineszstraat 7, Ede",
+        "tijd": "10.00 - 12.30 en 14.30 - 17.00 uur",
+        "date": "20120609235900",
+        "organisatie": "Enbukan",
+        "bijzonderheden": "35 euro per dag"
+    },
+    {
+        "id": "273",
+        "docent": "Shishiya Sensei",
+        "locatie": "Dojo Physical, Vening Meineszstraat 7, Ede",
+        "tijd": "10.00 - 12.30 en 14.30 - 17.00 uur",
+        "date": "20120610235900",
+        "organisatie": "Enbukan",
+        "bijzonderheden": "35 euro per dag"
+    },
+    {
+        "id": "266",
+        "docent": "Doris Dohse",
+        "locatie": "Slotjesveld 9, Oosterhout",
+        "tijd": "10.00-13.00 uur",
+        "date": "20111016235900",
+        "organisatie": "Aikidoschool Oosterhout",
+        "bijzonderheden": "Kosten 15 euro"
+    },
+    {
+        "id": "241",
+        "docent": "IAS stage",
+        "locatie": "Jarig van de Wielenwei 42, Een-West",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20130425235900",
+        "organisatie": "Inner Aikido School",
+        "bijzonderheden": "Training geïnspireerd door Seiichi Sugano"
+    },
+    {
+        "id": "291",
+        "docent": "IAS stage",
+        "locatie": "Jarig van de Wielenwei 42, Een-West",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20130426235900",
+        "organisatie": "Inner Aikido School",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "229",
+        "docent": "Chris de Jongh",
+        "locatie": "Sportstad Heerenveen, Abe Lenstraboulevard 23Q, Heerenveen",
+        "tijd": "10.00 - 12.00 uur",
+        "date": "20121208235900",
+        "organisatie": "JBN district Noord-Nederland",
+        "bijzonderheden": "Districtsstage. Kosten 7 euro"
+    },
+    {
+        "id": "189",
+        "docent": "Leonard van Kuijk",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 13.30 uur",
+        "date": "20090524235900",
+        "organisatie": "JBN, district Zuid-Nederland",
+        "bijzonderheden": "districtsstage"
+    },
+    {
+        "id": "190",
+        "docent": "Jan Brand",
+        "locatie": "Dojo Lu Gia Jen, Baambruggestraat 6, Den Haag",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20130428235900",
+        "organisatie": "Lu Gia Jen",
+        "bijzonderheden": "Kosten 5 euro."
+    },
+    {
+        "id": "276",
+        "docent": "Yoshimitsu Yamada",
+        "locatie": "Centre Sportif de la Woluwe, Avenue Emmanuel Mounier, 87, B-1200 Brussel",
+        "tijd": "Tijden nog niet bekend",
+        "date": "20121021235900",
+        "organisatie": "Stage123",
+        "bijzonderheden": "info@stage123.info"
+    },
+    {
+        "id": "236",
+        "docent": "Shishiya Sensei",
+        "locatie": "Sportpark Mariënhoeve, Lekdijk Oost 13a, Wijk bij Duurstede",
+        "tijd": "10.00 - 16.30 uur",
+        "date": "20110521232500",
+        "organisatie": "Enbukan en stiching Aikido Kyorakukan",
+        "bijzonderheden": "Kosten 75 euro. www.kyorakukan.nl"
+    },
+    {
+        "id": "99",
+        "docent": "Hans Belder & Marco van Katwijk",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00-12.30 uur",
+        "date": "20130428235900",
+        "organisatie": "JBN district Zuid-Holland",
+        "bijzonderheden": "Districtsstage. Kosten 6 euro."
+    },
+    {
+        "id": "100",
+        "docent": "Jan Rusman & Bent Bervoets",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00-12.30 uur",
+        "date": "20111211230000",
+        "organisatie": "JBN district Zuid-Holland",
+        "bijzonderheden": "Districtsstage. Kosten 5 euro."
+    },
+    {
+        "id": "295",
+        "docent": "Hans Mertens",
+        "locatie": "Sporting Aad de Hoog, Zinkseweg 25, Spijkenisse",
+        "tijd": "10.00 - 12.00 uur",
+        "date": "20121013235900",
+        "organisatie": "Sporting Aad de Hoog",
+        "bijzonderheden": "Besloten stage"
+    },
+    {
+        "id": "275",
+        "docent": "Yoshimitsu Yamada",
+        "locatie": "Centre Sportif de la Woluwe, Avenue Emmanuel Mounier, 87, B-1200 Brussel",
+        "tijd": "Tijden nog niet bekend",
+        "date": "20121020235900",
+        "organisatie": "Stage123",
+        "bijzonderheden": "contact@stage123.info"
+    },
+    {
+        "id": "216",
+        "docent": "Chris de Jongh & Marcel Mutsaarts",
+        "locatie": "Sportpark De Klif, Pijlpuntstraat 1, 6515 DJ Oosterhout, Gemeente Nijmegen \r\n",
+        "tijd": "15.00-18.00 uur",
+        "date": "20101211235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "188",
+        "docent": "Jan Brand",
+        "locatie": "Dojo Lu Gia Jen, Baambruggestraat 6, Den Haag",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20121028235900",
+        "organisatie": "Lu Gia Jen",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "104",
+        "docent": "Bart Wilffert & Maarten Huiskamp",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00-12.30 uur",
+        "date": "20120108230000",
+        "organisatie": "JBN district Zuid-Holland",
+        "bijzonderheden": "Districtsstage. Kosten 5 euro."
+    },
+    {
+        "id": "285",
+        "docent": "Pierre Geraedts",
+        "locatie": "Picardie 36, Gennep",
+        "tijd": "10.30 - 12.00 en 13.30 - 15.30 uur",
+        "date": "20121229235800",
+        "organisatie": "Aikido Dojo Gennep",
+        "bijzonderheden": "Kerststage"
+    },
+    {
+        "id": "210",
+        "docent": "Claude Pellerin",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem",
+        "tijd": "09.00-12.00 uur",
+        "date": "20110522235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage. 17.50 euro per dag, 27,50 euro per weekeinde"
+    },
+    {
+        "id": "211",
+        "docent": "Chris Curtus",
+        "locatie": "Sportzaal, Barrierlaan 41, Helmond",
+        "tijd": "09.00-10.00 en 10.00-12.00 en 14.00-16.00 uur",
+        "date": "20111002235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage. Ki-aikido"
+    },
+    {
+        "id": "212",
+        "docent": "Claude Pellerin",
+        "locatie": "Abe Lenstra Boulevard 23Q, Heerenveen",
+        "tijd": "15.00-18.00 uur",
+        "date": "20130406235800",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "213",
+        "docent": "Claude Pellerin",
+        "locatie": "Tapirstraat 2, Nijmegen",
+        "tijd": "09.00-12.00 uur",
+        "date": "20120923235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "237",
+        "docent": "Examinatoren training",
+        "locatie": "Bondscentrum JBN, Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20111015235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Uitsluitend toegankelijke voor examinatoren"
+    },
+    {
+        "id": "214",
+        "docent": "Claude Pellerin / Michel Prouvèze",
+        "locatie": "Papendal",
+        "tijd": "15.00-18.00 uur",
+        "date": "20110402235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "201",
+        "docent": "Claude Pellerin",
+        "locatie": "Camping/Sporthal ‘Jacobus Hoeve’, Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "Gehele dag",
+        "date": "20090710235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "112",
+        "docent": "Claude Pellerin",
+        "locatie": "Abe Lenstra Boulevard 23Q, Heerenveen",
+        "tijd": "09.00-12.00 uur",
+        "date": "20130407235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "290",
+        "docent": "Koos de Graaf",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 12.00 uur",
+        "date": "20130414235900",
+        "organisatie": "JBN district Zuid-Nederland",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "249",
+        "docent": "Stéphane Benedetti",
+        "locatie": "Dojo De wa Kwai, Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "15.00 - 18.00 uur",
+        "date": "20110528235900",
+        "organisatie": "JBN district Zuid-Nederland",
+        "bijzonderheden": "Kosten: 15 euro per dag"
+    },
+    {
+        "id": "250",
+        "docent": "Stéphane Benedetti",
+        "locatie": "Dojo De wa Kwai, Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20110529235900",
+        "organisatie": "JBN district Zuid-Nederland",
+        "bijzonderheden": "Kosten: 15 euro per dag"
+    },
+    {
+        "id": "251",
+        "docent": "Donovan Waite",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem\r\n\r\n",
+        "tijd": "11.30-13.30 en 15.30-17.30 uur",
+        "date": "20111022235900",
+        "organisatie": "JBN district West-Nederland",
+        "bijzonderheden": ""
+    },
+    {
+        "id": "252",
+        "docent": "Donovan Waite",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem\r\n\r\n",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20111023235900",
+        "organisatie": "JBN district West-Nederland",
+        "bijzonderheden": ""
+    },
+    {
+        "id": "253",
+        "docent": "Carel Zappeij & Wilko Lok",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem\r\n\r\n",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20121118235900",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Aikidostage. Kosten 5 euro"
+    },
+    {
+        "id": "244",
+        "docent": "Donovan Waite",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem",
+        "tijd": "12.00 - 14.00 en 15.30 - 17.30 uur",
+        "date": "20120218235900",
+        "organisatie": "Hikari & Aikido-Ryu Jan Rusman",
+        "bijzonderheden": "Aikidostage. Kosten: weekend 50 euro, dag 35 euro, dagdeel 20 euro."
+    },
+    {
+        "id": "247",
+        "docent": "Wilko Lok & Wytske de Wit",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20130324235900",
+        "organisatie": "JBN district ZH",
+        "bijzonderheden": "Districtsstage, kosten 6 euro."
+    },
+    {
+        "id": "233",
+        "docent": "Voorbereidende danexamentraining",
+        "locatie": "JBN Bondscentrum, Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20130420235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Diverse leraren"
+    },
+    {
+        "id": "234",
+        "docent": "Danexamens",
+        "locatie": "Sporthal Rustenburg, Fürglerplein 3, Amersfoort",
+        "tijd": "09.00 - 13.00 uur",
+        "date": "20121028235900",
+        "organisatie": "JBN",
+        "bijzonderheden": ""
+    },
+    {
+        "id": "235",
+        "docent": "Bart Wilffert & Patrick van Engelen",
+        "locatie": "Byzantiumstraat 74, Haarlem",
+        "tijd": "13.30 - 16.30 uur",
+        "date": "20100328235900",
+        "organisatie": "Dojo Munen Muso",
+        "bijzonderheden": "Kosten 5 euro"
+    },
+    {
+        "id": "262",
+        "docent": "Zomerschool met Claude Pellerin",
+        "locatie": "Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "09.30 - 12.00 uur",
+        "date": "20110710235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "263",
+        "docent": "Danexamentraining",
+        "locatie": "Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20120901235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Danexamentraining"
+    },
+    {
+        "id": "254",
+        "docent": "Chris de Jongh",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem\r\n\r\n",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20130223235900",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Aikidostage. Kosten 5 euro"
+    },
+    {
+        "id": "129",
+        "docent": "Harry Kat & Henk Kat",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00-12.30 uur",
+        "date": "20120916235900",
+        "organisatie": "JBN district Zuid-Holland",
+        "bijzonderheden": "Districtsstage. Kosten 5 euro."
+    },
+    {
+        "id": "126",
+        "docent": "Carel Zappeij & Hans Mertens",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00-12.30 uur",
+        "date": "20121104235900",
+        "organisatie": "JBN district Zuid-Holland",
+        "bijzonderheden": "Districtsstage. Kosten 5 euro."
+    },
+    {
+        "id": "248",
+        "docent": "Bart Wilffert & Tessa Huiskamp",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20130106235400",
+        "organisatie": "JBN district ZH",
+        "bijzonderheden": "Districtsstage, kosten 6 euro."
+    },
+    {
+        "id": "131",
+        "docent": "Chris de Jongh",
+        "locatie": "Sportstad Heerenveen, A. Lenstraboulevard 23Q, Heerenveen",
+        "tijd": "10.00-12.00 uur",
+        "date": "20121020235900",
+        "organisatie": "JBN district Noord-Nederland",
+        "bijzonderheden": "Districtsstage Noord-Nederland. Kosten 7 euro."
+    },
+    {
+        "id": "243",
+        "docent": "Chris de Jongh",
+        "locatie": "Sportstad Heerenveen, Abe Lenstraboulevard 23Q, Heerenveen",
+        "tijd": "10.00 - 12.00 uur",
+        "date": "20130209235900",
+        "organisatie": "JBN District Noord-Nederland",
+        "bijzonderheden": "Districtsstage. Kosten 7 euro."
+    },
+    {
+        "id": "245",
+        "docent": "Donovan Waite",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20120219235900",
+        "organisatie": "Hikari & Aikido-Ryu Jan Rusman",
+        "bijzonderheden": "Aikidostage. Kosten: weekend 50 euro, dag 35 euro, dagdeel 20 euro."
+    },
+    {
+        "id": "269",
+        "docent": "M. Fukakusa & Pierre Geraedts",
+        "locatie": "Nationaal Sportcentrum Papendal, Papendallaan 60, Arnhem",
+        "tijd": "14.15 - 15.15, 15.30 - 16.30, 17.00 - 18.00 uur",
+        "date": "20120421235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale stage, 30 euro per dag, 55 euro per 2 dagen"
+    },
+    {
+        "id": "239",
+        "docent": "Yudansha training",
+        "locatie": "Bondscentrum JBN, Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20110115235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Uitsluitend toegankelijk voor yudansha"
+    },
+    {
+        "id": "242",
+        "docent": "Wilko Lok",
+        "locatie": "Budo Akademie Shudo Kan, Oudegracht 387, Utrecht",
+        "tijd": "10.30 - 12.00 en 13.00 - 14.30 uur",
+        "date": "20101106235900",
+        "organisatie": "Budo Akademie Shudo Kan",
+        "bijzonderheden": "Eén sessie: 10 euro, twee sessies 15 euro. Aanmelding via tomfrijns@hotmail.com"
+    },
+    {
+        "id": "238",
+        "docent": "In het spoor van de Inner Aikido School",
+        "locatie": "Haarlem",
+        "tijd": "14.00-17.00 uur",
+        "date": "20101113235800",
+        "organisatie": "IAS Nederland",
+        "bijzonderheden": "Training geïnspireerd door Seiichi Sugano"
+    },
+    {
+        "id": "143",
+        "docent": "Chris Curtis",
+        "locatie": "Sportzaal, Barrierlaan 41, Helmond",
+        "tijd": "10.00-12.00 en 14.00-16.00 uur",
+        "date": "20111001235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale stage. Ki-aikido"
+    },
+    {
+        "id": "264",
+        "docent": "Inner Aikido School",
+        "locatie": "Sportschool Aarts, Abellalaan 82, Hillegom",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20111008235900",
+        "organisatie": "IAS",
+        "bijzonderheden": "Bijdrage 15 euro. Wapens en meditatiekussen meenemen"
+    },
+    {
+        "id": "145",
+        "docent": "Harry Kat & Hans Belder",
+        "locatie": "Kennemer sporthal, IJsbaanlaan 4a, Haarlem",
+        "tijd": "14.00-17.00 uur",
+        "date": "20121020235700",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Aikido stage. Kosten 5 euro."
+    },
+    {
+        "id": "255",
+        "docent": "Carel Zappeij & Hans Belder & Christiaan Zandt",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem\r\n\r\n",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20120317235900",
+        "organisatie": "JBN district West-Nederland",
+        "bijzonderheden": "Stage in kader van Inner Aikido"
+    },
+    {
+        "id": "222",
+        "docent": "Seiichi Sugano",
+        "locatie": "n.n.b.",
+        "tijd": "gehele dag",
+        "date": "20100509235000",
+        "organisatie": "JBN",
+        "bijzonderheden": "Inner Aikido Stage"
+    },
+    {
+        "id": "151",
+        "docent": "Claude Pellerin",
+        "locatie": "Picardie 36, Gennep",
+        "tijd": "09.00 - 12.00 uur",
+        "date": "20130203235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale stage"
+    },
+    {
+        "id": "278",
+        "docent": "IAS stage",
+        "locatie": "Locatie nog niet bekend",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20121013235900",
+        "organisatie": "Inner Aikido School",
+        "bijzonderheden": "Inner Aikido School"
+    },
+    {
+        "id": "279",
+        "docent": "IAS stage",
+        "locatie": "Locatie nog niet bekend",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20121014235900",
+        "organisatie": "Inner Aikido School",
+        "bijzonderheden": "Inner Aikido School"
+    },
+    {
+        "id": "280",
+        "docent": "Doris Dohse",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20121014235900",
+        "organisatie": "Aikidoschool Oosterhout",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "281",
+        "docent": "Ad van Dongen",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 12.00 uur",
+        "date": "20121111235900",
+        "organisatie": "Aikidoschool Oosterhout",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "282",
+        "docent": "Leonard van Kuijk & Harry Kat",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 12.00 uur",
+        "date": "20121209235900",
+        "organisatie": "JBN district Zuid-Nederland",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "161",
+        "docent": "Bent Bervoets & Maarten Huiskamp",
+        "locatie": "Aarts Sport, Abellalaan 82, Hillegom",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20121202235900",
+        "organisatie": "JBN district Zuid-Holland",
+        "bijzonderheden": "Districtsstage. Kosten 6 euro."
+    },
+    {
+        "id": "256",
+        "docent": "Tessa & Maarten Huiskamp",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem\r\n\r\n",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20130414235900",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Aikidostage. Kosten 5 euro"
+    },
+    {
+        "id": "257",
+        "docent": "Henk Kat & Hans Mertens",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem\r\n\r\n",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20130608235900",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Aikidostage. Kosten 5 euro"
+    },
+    {
+        "id": "258",
+        "docent": "Zomerschool met Claude Pellerin",
+        "locatie": "Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "15.00 - 19.00 uur",
+        "date": "20110706235400",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "259",
+        "docent": "Zomerschool met Claude Pellerin",
+        "locatie": "Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "07.00 - 19.00 uur",
+        "date": "20110707235700",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "292",
+        "docent": "IAS stage",
+        "locatie": "Jarig van de Wielenwei 42, Een-West",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20130427235900",
+        "organisatie": "Inner Aikido School",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "260",
+        "docent": "Zomerschool met Claude Pellerin",
+        "locatie": "Tolnegenweg 53, Stroe (Gld)",
+        "tijd": "07.00 - 19.00 uur",
+        "date": "20110708235700",
+        "organisatie": "JBN",
+        "bijzonderheden": "Zomerschool"
+    },
+    {
+        "id": "181",
+        "docent": "Harry Kat",
+        "locatie": "Sportcomplex Oosterhout, Vondelstraat 35, Alkmaar",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20081206235900",
+        "organisatie": "JBN distr. Noord-Holland",
+        "bijzonderheden": "Districtsstage, 5 euro per persoon per dag"
+    },
+    {
+        "id": "288",
+        "docent": "IAS stage",
+        "locatie": "Locatie nog niet bekend",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20130316235900",
+        "organisatie": "Inner Aikido School",
+        "bijzonderheden": ""
+    },
+    {
+        "id": "289",
+        "docent": "Gijs Schouten",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "Tijd nog niet bekend",
+        "date": "20130317235900",
+        "organisatie": "JBN district Zuid-Nederland",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "286",
+        "docent": "Remco Kant & Harald van den Wijngaard",
+        "locatie": "Slotjesveld 9, Oosterhout",
+        "tijd": "15.00 - 18.00 uur",
+        "date": "20130120235900",
+        "organisatie": "Aikidoschool Oosterhout",
+        "bijzonderheden": "Aikidostage"
+    },
+    {
+        "id": "287",
+        "docent": "Examinatorentraining",
+        "locatie": "Blokhoeve 5, Nieuwegein",
+        "tijd": "10.00- 13.00 uur",
+        "date": "20130209235900",
+        "organisatie": "JBN",
+        "bijzonderheden": ""
+    },
+    {
+        "id": "177",
+        "docent": "Chris de Jongh",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20101107233000",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Kosten 5 euro"
+    },
+    {
+        "id": "178",
+        "docent": "Hans Mertens & Henk Kat",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20110312233100",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Kosten 5 euro"
+    },
+    {
+        "id": "179",
+        "docent": "Jan Rusman & Kees Bruggink",
+        "locatie": "Kennemer Sportcenter, IJsbaanlaan 4a, Haarlem",
+        "tijd": "14.00 - 17.00 uur",
+        "date": "20101204233200",
+        "organisatie": "Aikido Ryu Jan Rusman",
+        "bijzonderheden": "Kosten 5 euro. Aikido en jodo."
+    },
+    {
+        "id": "217",
+        "docent": "Chris de Jongh & Marcel Mutsaarts",
+        "locatie": "Sportpark De Klif, Pijlpuntstraat 1, 6515 DJ Oosterhout, Gemeente Nijmegen \r\n",
+        "tijd": "09.00-12.00 uur",
+        "date": "20101212235900",
+        "organisatie": "JBN",
+        "bijzonderheden": "Nationale aikidostage"
+    },
+    {
+        "id": "184",
+        "docent": "Ton Zwalve & Jan Brand",
+        "locatie": "Lu Gia Jen, Baambruggestraat 6, Den Haag",
+        "tijd": "10.00 - 12.30 uur",
+        "date": "20111030235900",
+        "organisatie": "Lu Gia Jen",
+        "bijzonderheden": "NajaarDuoStage\r\nKosten: 5 euro."
+    },
+    {
+        "id": "185",
+        "docent": "Carel Zappeij/Theo Bussers",
+        "locatie": "Dojo Kai In Sho, Prins Bernhardstr. 1, Roermond",
+        "tijd": "10.00 - 13.00 uur",
+        "date": "20090208235900",
+        "organisatie": "JBN, district Limburg",
+        "bijzonderheden": "districtsstage"
+    },
+    {
+        "id": "186",
+        "docent": "Gijs Schouten",
+        "locatie": "Prins Willem Alexander Sportpark 8, Veghel",
+        "tijd": "10.00 - 13.30 uur",
+        "date": "20090329235900",
+        "organisatie": "JBN, district Zuid-Nederland",
+        "bijzonderheden": "districtsstage"
+    }
+]
