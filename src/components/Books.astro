@@ -14,15 +14,11 @@ import books from '@/content/lists/books.json';
     </thead>
     <tbody>
         {
-        books.map(({id, auteur, titel, uitgever, jaar, taal, omschrijving, img, isbn, homepage}) => (
+        books.map(({auteur, titel, jaar, taal, omschrijving, img, isbn, homepage}) => (
                 <tr>
-                    <td>
-                        <a href=`/boek/[seo_titel]/auteur/[seo_auteur]/nr${id}` title=`Uitgever: ${uitgever}`>
-                            <img src=`/img/boeken/${img}` alt={titel} width="50" />
-                        </a>
-                    </td>
-                    <td><a href="/zoek-auteur/[auteur]#booklist" title="Zoek meer van deze auteur">{auteur}</a></td>
-                    <td><a href="/boek/[seo_titel]/auteur/[seo_auteur]/nr[id]" title="Uitgever: {uitgever}">{titel}</a></td>        				
+                    <td><img src=`/img/boeken/${img}` alt={titel} width="50" loading="lazy"></td>
+                    <td><strong>{auteur}</strong></td>
+                    <td>{titel}</td>        				
                     <td>{taal}</td>
                     <td>{jaar}</td>
                 </tr>   

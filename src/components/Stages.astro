@@ -11,11 +11,11 @@ import stages from '@/content/lists/stages.json';
     </thead>
     <tbody>
     {
-        stages.map(({id, docent, locatie, tijd, date, organisatie, bijzonderheden}) => (
+        stages.map(({docent, locatie, tijd, date, organisatie, bijzonderheden}) => (
             <tr>
-                <td><a href="/stage/[seo_docent]/[seo_locatie]/nr{id}" title="Organisatie: {organisatie}">{docent}</a></td>			
-                <td><a href="/stage/[seo_docent]/[seo_locatie]/nr{id}" title="Organisatie: {organisatie}">{locatie}</a></td>			
-                <td>{date} {tijd}</td>
+                <td><strong>{docent}</strong> ({bijzonderheden}, {organisatie})</td>
+                <td>{locatie}</td>			
+                <td><time datetime={date}>{date} {tijd}</time></td>
             </tr>
         ))
     }
