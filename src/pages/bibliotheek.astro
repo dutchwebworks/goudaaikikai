@@ -11,58 +11,10 @@ import Books from '@/components/Books.astro';
         Vermeld de auteur en de titel van het boek.
     </p>
 
-    <p>
-        Onderaan de pagina kunt u verder <a href="/bibliotheek#pages">bladeren</a> door op de goede link te klikken.
-        U kunt ook een directe pagina kiezen.
-    </p>
-
-    <div id="insert">
-        <h3>Zoeken</h3>
-
-        <p>Met onderstaande zoek opdracht zoekt u op de volgende velden:</p>
-        <ul>
-            <li>Titel</li>
-            <li>Auteur</li>
-            <li>Isbn nummer</li>
-            <li>Omschrijving</li>
-        </ul>
-        
-        <p>
-            <form name="zoeken" id="zoeken" method="get" action="./">
-                <input type="text" size="40" name="query" id="query" value="[query]" />
-                <input type="submit" name="search" value="Zoeken" />
-            </form>
-        </p>
-        
-        <p><a href="/bibliotheek#results" title="Begin vanaf pagina 1 weer">Toon alle boeken</a></p>	
-    </div>
-
-
     <div id="booklist">
-        <h2>Huidige boeken</h2>
+        <h2>Boeken</h2>
         
-        <p>
-            Klik op de naam van de auteur om op <strong>meer boeken</strong> van deze auteur te zoeken.
-            Klik op de titel of de cover van het boek voor meer <strong>informatie</strong>.
-        </p>
-
-        <!-- BEGIN HITS -->
-        <p class="status">[search_hits] boek(en) gevonden van zoekopdracht: <em>'[query]'</em></p>
-        <!-- END HITS -->	
-
         <Books />
-    </div>
-
-    <div id="pages">
-        <h3>Pagina:</h3>
-        <form action="" name="pages" method="get">
-            
-            <select name="page_list" onchange="MM_jumpMenu('parent',this,0)">
-            [page_list]
-            </select>
-
-            [previous_page] | [next_page]
-        </form>	  
     </div>
 </Layout>
 

@@ -11,33 +11,6 @@ import guestbook from '@/content/lists/guestbook.json';
         huidige bericht zien. Onderaan deze pagina kunt u blader in de huidige berichten.
     </p>
 
-    <div id="insert">
-        <p class="status">[status]</p>
-
-        <form name="guestbook" id="guestbook" action="" method="post">
-            <h3>Uw naam of een pakkende tekst</h3>
-
-            <p><input type="text" name="name" size="60" class="textfield validateRequired" title="Uw naam is verplicht" /></p>
-            
-            <h3>Vul hier een boodschap in.</h3>
-
-            <p><textarea name="message" cols="60" rows="12" class="textfield validateRequired" title="Een bericht is verplicht"></textarea></p>
-
-            <h3>Code</h3>
-
-            <p><img src="" id="captchaImg" alt="Captcha image" /></p>
-
-            <p>Typ bovenstaande <a href="http://nl.wikipedia.org/wiki/Captcha" target="_blank" title="Wat is dit?">captcha-code</a> over om het formulier te versturen.</p>
-
-            <p><input type="text" name="user_code" id="user_code" size="60" class="textfield validateRequired" title="Typ de juiste code over" /></p>
-
-            <p>
-                <input type="submit" name="insert" value="Teken" />
-                <input type="reset" name="reset" value="Wissen" />
-            </p>
-        </form>
-    </div>
-
     <h2>Huidige berichten</h2>
 
     <div id="messagelist">
@@ -56,18 +29,6 @@ import guestbook from '@/content/lists/guestbook.json';
             }
         </dl>
         <hr class="hide" />
-    </div>
-
-    <div id="pages">
-        <h3>Pagina:</h3>
-        <form action="" name="pages" method="get">
-            
-            <select name="page_list" onchange="MM_jumpMenu('parent',this,0)">
-            [page_list]
-            </select>
-
-            [previous_page] | [next_page]
-        </form>	  
     </div>
 </Layout>
 

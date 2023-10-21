@@ -4,17 +4,16 @@ import news from '@/content/lists/news.json';
 ---
 
 <Layout title="Foto albums">
-    <h2>Nieuws overzicht</h2>	
+    <h2>Nieuws overzicht</h2>
 
-    <p class="inleiding">Klik op het nieuws item voor het volledige artikel.</p>
-    
     <dl>
     {
-        news.map(({id, header, message, date_start, date_end}) => (
-                <dt><a href=`/nieuws/[seo_header}]/nr${id}`>{header}</a></dt>
+        news.map(({header, message, date_start}) => (
+                <dt>{header}</dt>
+
                 <dd>
                     {message}
-                    <p class="date">{date_start}</p>
+                    <div><time datetime={date_start} class="date">{date_start}</time></div>
                 </dd>   
             ))
         }

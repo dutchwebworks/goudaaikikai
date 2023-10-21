@@ -7,8 +7,6 @@ import Layout from '@/layouts/Layout.astro';
 
     <p class="inleiding">Door onderstaand formulier in te vullen zullen wij zo spoedig mogelijk contact met u opnemen.</p>
 
-    <p class="status">[status]</p>
-
     <h3>Uw gegevens</h3>
 
     <form name="contact" id="contact" method="post" action="" inert>
@@ -49,22 +47,9 @@ import Layout from '@/layouts/Layout.astro';
             <tr valign="top">
                     <td>Opmerkingen*</td>
                     <td>
-                        <textarea name="opmerkingen" cols="40" rows="10"  class="textfield validateRequired" title="Een op- aanmerking is verplicht"><!-- BEGIN BOOK_INFO -->Boek: [auteur] ([titel])<!-- END BOOK_INFO --></textarea>
+                        <textarea name="opmerkingen" cols="40" rows="10"  class="textfield validateRequired" title="Een op- aanmerking is verplicht"></textarea>
                     </td>
-            </tr>
-            <tr valign="top">
-                <td>Code*</td>
-                <td>
-                    <img src="/base/visual-captcha.php" id="captchaImg" alt="Captcha image" />
-                </td>
-            </tr>
-            <tr>
-                <td>&nbsp;</td>
-                <td>
-                    <input type="text" name="user_code" id="user_code" size="60" class="textfield validateRequired" title="Typ de juiste code over" />
-                    <p>Typ bovenstaande <a href="http://nl.wikipedia.org/wiki/Captcha" target="_blank" title="Wat is dit?">captcha-code</a> over om het formulier te versturen.</p>
-                </td>
-            </tr>                
+            </tr>               
         </table>
 
         <p>
