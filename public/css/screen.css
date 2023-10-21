@@ -32,6 +32,12 @@ input:hover, select:hover, textarea:hover {
 	background: #dae1e6;
 }
 
+img,
+video {
+	max-width: 100%;
+	height: auto;
+}
+
 /* ID's 
 =============================================================== */
 
