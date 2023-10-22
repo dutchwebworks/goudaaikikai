@@ -1,6 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import guestbook from '@/content/lists/guestbook.json';
+import Guestbook from "@/components/Guestbook.astro";
 ---
 
 <Layout title="Gastenboek">
@@ -13,23 +13,7 @@ import guestbook from '@/content/lists/guestbook.json';
 
     <h2>Huidige berichten</h2>
 
-    <div id="messagelist">
-        <dl>
-            {
-            guestbook.map(({id, name, message, date}) => (                
-                    <dt>{name}</dt>
-
-                    <dd>
-                        <blockquote>
-                            <p>{message}</p>
-                        </blockquote>
-                        <p class="date">{date}</p>
-                    </dd>
-                ))
-            }
-        </dl>
-        <hr class="hide" />
-    </div>
+    <Guestbook />    
 </Layout>
 
 <style>

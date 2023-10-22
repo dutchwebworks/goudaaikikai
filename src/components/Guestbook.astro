@@ -1,0 +1,22 @@
+---
+import guestbook from '@/content/lists/guestbook.json';
+import { nlDate } from "@/helpers/nl-date.js";
+---
+
+<div id="messagelist">
+    <dl>
+        {
+            guestbook.map(({name, message, date}) => (
+                <dt>{name}</dt>
+
+                <dd>
+                    <blockquote>
+                        <p>{message}</p>
+                    </blockquote>
+                    
+                    <p class="date">{nlDate(date)}</p>
+                </dd>
+            ))
+        }
+    </dl>
+</div>
