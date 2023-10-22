@@ -1,5 +1,6 @@
 ---
 import stages from '@/content/lists/stages.json';
+import { nlDate } from "@/helpers/nl-date.js";
 ---
 <table class="design" cellspacing="0">
     <thead>
@@ -12,12 +13,12 @@ import stages from '@/content/lists/stages.json';
     <tbody>
     {
         stages.map(({docent, locatie, tijd, date, organisatie, bijzonderheden}) => (
-            <tr>
-                <td><strong>{docent}</strong> ({bijzonderheden}, {organisatie})</td>
-                <td>{locatie}</td>			
-                <td><time datetime={date}>{date} {tijd}</time></td>
-            </tr>
-        ))
+                <tr>
+                    <td><strong>{docent}</strong> ({bijzonderheden}, {organisatie})</td>
+                    <td>{locatie}</td>			
+                    <td><time datetime={date}>{nlDate(date)} {tijd}</time></td>
+                </tr>
+            ))
     }
     </tbody>
 </table>
