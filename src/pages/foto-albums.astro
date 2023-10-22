@@ -1,5 +1,8 @@
 ---
 import Layout from '@/layouts/Layout.astro';
+import photos from "@/content/lists/photo-albums.json";
+import { nlDate } from '@/helpers/nl-date.js';
+import { slugify } from '@/helpers/slugify.js';
 ---
 
 <Layout title="Foto albums">
@@ -10,9 +13,11 @@ import Layout from '@/layouts/Layout.astro';
     </p>
 
     <ul>
-        <!-- BEGIN FOTOLIST -->
-            <li><a href="/foto-album/[seodate]/[seoname]/nr[id]" title="[date]">[header]</a></li>
-        <!-- END FOTOLIST -->
+        {
+            photos.map(({header, date}) => (            
+                <li><a href=`/foto-album/${slugify(header)}`>{header}</a> ({nlDate(date)})</li>
+            ))
+        }
     </ul>
 </Layout>
 
