@@ -1,16 +1,11 @@
+---
+import nav from "@/content/lists/nav.json";
+---
+
 <ul id="nav">
-    <li><a href="/" title="Het ontstaan van onze sportschool">Gouda Aikikai</a></li>
-    <li><a href="/geschiedenis" title="Geschiedenis van de school">Geschiedenis</a></li>
-    <li><a href="/aikido-achtergrond" title="Achtergrond informatie">Aikido achtergrond</a></li>			
-    <li><a href="/gastenboek" title="Bekijk en teken het gastenboek">Gastenboek</a></li>
-    <li><a href="/foto-albums" title="Foto's van Gouda Aikikai">Foto album(s)</a></li>
-    <li><a href="/video" title="Filmpjes van Gouda Aikikai">Video</a></li>
-    <li><a href="/nieuws" title="Nieuws bericht omtrent Gouda Aikikai">Nieuws</a></li>
-    <li><a href="/links" title="Andere Aikido websites">Links</a></li>	
-    <li><a href="/route" title="Print hier uw route beschrijving">Route</a></li>
-    <li><a href="/stages" title="Overzicht van aankomende Aikido stages">Stages</a></li>
-    <li><a href="/bibliotheek" title="Boeken met betrekking tot Aikido/Aikikai">Bibliotheek</a></li>
-    <li><a href="/exameneisen" title="Exameneisen voor kyu/dan graden">Exameneisen</a></li>
-    <li><a href="/disclaimer" title="Juridische informatie en kennisgevingen">Disclaimer</a></li>
-    <li><a href="/contact" title="Contact opnemen met de school">Contact</a></li>
+    {
+        nav.map(({url, title, label}) => (
+            <li><a href={url} title={title}>{label}</a></li>
+        ))    
+    }
 </ul>

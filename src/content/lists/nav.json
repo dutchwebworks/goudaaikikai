@@ -1,0 +1,72 @@
+[
+    {
+        "url": "/",
+        "title": "Het ontstaan van onze sportschool",
+        "label": "Gouda Aikikai"
+    },
+    {
+        "url": "/geschiedenis",
+        "title": "Geschiedenis van de school",
+        "label": "Geschiedenis"
+    },
+    {
+        "url": "/aikido-achtergrond",
+        "title": "Achtergrond informatie",
+        "label": "Aikido achtergrond"
+    },
+    {
+        "url": "/gastenboek",
+        "title": "Bekijk en teken het gastenboek",
+        "label": "Gastenboek"
+    },
+    {
+        "url": "/foto-albums",
+        "title": "Foto's van Gouda Aikikai",
+        "label": "Foto album(s)"
+    },
+    {
+        "url": "/video",
+        "title": "Filmpjes van Gouda Aikikai",
+        "label": "Video"
+    },
+    {
+        "url": "/nieuws",
+        "title": "Nieuws bericht omtrent Gouda Aikikai",
+        "label": "Nieuws"
+    },
+    {
+        "url": "/links",
+        "title": "Andere Aikido websites",
+        "label": "Links"
+    },
+    {
+        "url": "/route",
+        "title": "Print hier uw route beschrijving",
+        "label": "Route"
+    },
+    {
+        "url": "/stages",
+        "title": "Overzicht van aankomende Aikido stages",
+        "label": "Stages"
+    },
+    {
+        "url": "/bibliotheek",
+        "title": "Boeken met betrekking tot Aikido/Aikikai",
+        "label": "Bibliotheek"
+    },
+    {
+        "url": "/exameneisen",
+        "title": "Exameneisen voor kyu/dan graden",
+        "label": "Exameneisen"
+    },
+    {
+        "url": "/disclaimer",
+        "title": "Juridische informatie en kennisgevingen",
+        "label": "Disclaimer"
+    },
+    {
+        "url": "/contact",
+        "title": "Contact opnemen met de school",
+        "label": "Contact"
+    }
+]
