@@ -1,0 +1,11 @@
+---
+import links from "@/content/lists/youtube-videos.json";
+---
+
+<ul>
+{
+    links.map(({title, url}) => (
+            <li><a href={url}>{title}</a></li> 
+        ))
+    }
+</ul>
