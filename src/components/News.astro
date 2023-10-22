@@ -1,0 +1,17 @@
+---
+import news from '@/content/lists/news.json';
+import { nlDate } from "@/helpers/nl-date.js";
+---
+
+<dl>
+{
+    news.map(({header, message, date_start}) => (
+        <dt>{header}</dt>
+
+        <dd>
+            {message}
+            <div><time datetime={date_start} class="date">{nlDate(date_start)}</time></div>
+        </dd>   
+    ))
+}
+</dl>
