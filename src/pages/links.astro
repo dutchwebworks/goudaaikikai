@@ -1,6 +1,6 @@
 ---
 import Layout from '@/layouts/Layout.astro';
-import links from '@/content/lists/links.json';
+import Links from "@/components/Links.astro";
 ---
 
 <Layout title="Route">
@@ -10,17 +10,7 @@ import links from '@/content/lists/links.json';
 
     <p class="inleiding">Hieronder staan een aantal links naar andere websites.</p>
 
-    <dl>
-        {
-        links.map(({id, name, beschrijving, url, date}) => (                
-                <dt id={id}>
-                    <a href={url} title=`geplaats op: {date}` target="_blank">{name}</a>
-                </dt>
-
-                <dd>{beschrijving}</dd>
-            ))
-        }
-    </dl>
+    <Links />
 </Layout>
 
 <style>

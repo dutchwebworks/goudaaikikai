@@ -1,0 +1,15 @@
+---
+import links from '@/content/lists/links.json';
+import { nlDate } from "@/helpers/nl-date.js";
+---
+<dl>
+    {
+    links.map(({id, name, beschrijving, url, date}) => (                
+            <dt id={id}>
+                <a href={url} title=`Geplaats op: {nlDate(date)}` target="_blank">{name}</a>
+            </dt>
+
+            <dd>{beschrijving}</dd>
+        ))
+    }
+</dl>
