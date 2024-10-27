@@ -2,23 +2,31 @@
 =============================================================== */
 body {
 	font: 12px Verdana, Arial, Helvetica, sans-serif;
-	background: url(/img/main_bg.gif) repeat-x top;
-	padding: 0px;
+	background: url(/img/main_bg.gif) repeat-x 0 50px;
+	padding: 50px 0 0 0;
 	margin: 0px;
 	text-align: center;
 }
+
 a img {
 	border: 0;
 }
-p, dd {
+
+p,
+dd {
 	line-height: 1.5em;
 }
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
 	font-family: "Trebuchet MS", "Times New Roman", Times, serif;
 }
 
-input, select, textarea {
+input,
+select,
+textarea {
 	background: #ccd5dc;
 	border: none;
 }
@@ -28,7 +36,9 @@ textarea.validateRequired {
 	background: #afcbe1;
 }
 
-input:hover, select:hover, textarea:hover {
+input:hover,
+select:hover,
+textarea:hover {
 	background: #dae1e6;
 }
 
@@ -38,6 +48,23 @@ video {
 	height: auto;
 }
 
+/* Old banner at the top
+==================================== */
+
+.old-banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 5px;
+	background: #FFFFC5;
+	z-index: 9999;
+	text-align: center;
+	font-weight: 400;
+	font-size: 14px;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+}
+
 /* ID's 
 =============================================================== */
 
@@ -45,7 +72,7 @@ video {
 	text-align: left;
 	width: 780px;
 	margin-right: auto;
-	margin-left: auto;	
+	margin-left: auto;
 }
 
 #header {
@@ -70,11 +97,15 @@ video {
 	text-align: right;
 	width: 140px;
 	margin-right: 15px;
-	margin-top: 75px; /* IE5.x/Win */
-	voice-family: "\"}\""; 
-  	voice-family:inherit;
-  	margin-top: 50px; /* Mozilla & other */
-  	_margin-top: 75px; /* IE6/Win */;
+	margin-top: 75px;
+	/* IE5.x/Win */
+	voice-family: "\"}\"";
+	voice-family: inherit;
+	margin-top: 50px;
+	/* Mozilla & other */
+	_margin-top: 75px;
+	/* IE6/Win */
+	;
 }
 
 #contentwrapper {
@@ -95,7 +126,7 @@ video {
 .headercaroussel {
 	display: block;
 	height: 260px;
-	width:604px;
+	width: 604px;
 	overflow: hidden;
 	position: relative;
 	top: 38px;
@@ -140,7 +171,8 @@ video {
 	font-weight: bold;
 }
 
-#side #nav a:hover, #side a:hover {
+#side #nav a:hover,
+#side a:hover {
 	color: #905603;
 	text-decoration: none;
 }
@@ -156,14 +188,16 @@ video {
 	margin-top: 0px;
 }
 
-#side dt, #side dt a {
+#side dt,
+#side dt a {
 	color: #022a4e;
 	font-weight: bold;
 	font-size: 13px;
 	padding-bottom: 3px;
 }
 
-#side #links dd, #side #links p {
+#side #links dd,
+#side #links p {
 	margin-top: 0px;
 	margin-bottom: 20px;
 	font-style: italic;
@@ -217,7 +251,8 @@ video {
 	clear: left;
 }
 
-#content dt a, #content dt {
+#content dt a,
+#content dt {
 	color: #022a4e;
 	font-weight: bold;
 	font-size: 13px;
@@ -239,12 +274,13 @@ video {
 	text-decoration: none;
 }
 
-#content dd, #booklist ul.info {
+#content dd,
+#booklist ul.info {
 	margin-bottom: 20px;
 	margin-left: 0px;
 	margin-top: 10px;
 	padding-bottom: 15px;
-	
+
 }
 
 #content dd p {
@@ -377,7 +413,7 @@ video {
 	margin-top: 15px;
 }
 
-#booklist ul.info li{
+#booklist ul.info li {
 	list-style: none;
 	float: left;
 	padding-right: 20px;
@@ -626,10 +662,12 @@ div#googleMaps {
 		background: none;
 		color: #333;
 	}
+
 	#main {
 		width: auto;
 		margin: 10px 10px 0px;
 	}
+
 	#slider,
 	#header #prevBtn,
 	#header #nextBtn,
@@ -638,9 +676,11 @@ div#googleMaps {
 	.extraLinks {
 		display: none;
 	}
+
 	#header .tagline {
 		position: static;
 	}
+
 	#content,
 	#side {
 		margin-left: 0;
@@ -649,35 +689,43 @@ div#googleMaps {
 		float: none;
 		width: auto;
 	}
+
 	#side {
 		width: auto;
 		text-align: left;
 		background: none;
 		margin-top: 200px;
 	}
+
 	#header {
 		height: 30px;
 		overflow: hidden;
 		background: none;
 	}
+
 	#contentwrapper {
 		background: none;
 	}
+
 	#content h1,
 	#content h2,
 	#content h3,
-	#content h4	{
+	#content h4 {
 		line-height: normal;
 	}
+
 	#content h1 {
 		font-size: 24px;
 	}
+
 	#content h2 {
 		font-size: 18px;
 	}
+
 	#content h3 {
 		font-size: 18px;
 	}
+
 	#content p,
 	#content dd,
 	#content li {
@@ -685,10 +733,12 @@ div#googleMaps {
 		font-size: 18px;
 		line-height: 26px;
 	}
+
 	#content h2 {
 		padding-top: 10px;
-		padding-bottom:10px;
+		padding-bottom: 10px;
 	}
+
 	#content img.left,
 	#content img.right,
 	#content .fancyBoxPhoto img {
@@ -698,91 +748,81 @@ div#googleMaps {
 		margin-left: 0;
 		margin-right: 0;
 	}
+
 	#mobileNav {
 		display: block;
 		width: 100%;
 		margin-bottom: 40px;
 		background-color: #eee;
 	}
-	#mobileNav p {	
+
+	#mobileNav p {
 		text-align: right;
 		color: #333;
 		margin-top: 0;
 		padding: 10px;
 	}
+
 	#mobileNav p a {
 		color: #333;
 		text-decoration: none;
 	}
+
 	#mobileNav a span {
 		position: relative;
 		top: -5px;
 		left: -10px;
 	}
+
 	#side #nav li {
 		margin: 0;
 		padding: 0;
 	}
+
 	#nav li a {
 		display: block;
 		width: 100%;
 		padding: 10px;
-		
+
 		border-radius: 3px;
 		margin-bottom: 2px;
-		
+
 		box-sizing: padding-box;
 		-moz-box-sizing: padding-box;
 
 		color: #000;
 		text-decoration: none;
-		
+
 		padding-left: 35px;
 		background: #eee url(/img/arrow-mobile-nav.gif) no-repeat 10px 12px;
-	}	
+	}
+
 	#footer {
 		height: 50px;
 	}
 }
 
 /* Smartphones (landscape) */
-@media only screen and (min-width : 321px) {
-
-}
+@media only screen and (min-width : 321px) {}
 
 /* Smartphones (portrait) */
-@media only screen and (max-width : 320px) {
-
-}
+@media only screen and (max-width : 320px) {}
 
 /* iPads (portrait and landscape) */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-
-}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {}
 
 /* iPads (landscape) */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
-
-}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {}
 
 /* iPads (portrait) */
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
-
-}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {}
 
 /* Desktops and laptops */
-@media only screen and (min-width : 1224px) {
-
-}
+@media only screen and (min-width : 1224px) {}
 
 /* Large screens */
-@media only screen and (min-width : 1824px) {
-
-}
+@media only screen and (min-width : 1824px) {}
 
 /* iPhone 4 and high pixel ratio devices */
-@media
-	only screen and (-webkit-min-device-pixel-ratio : 1.5),
-	only screen and (min-device-pixel-ratio : 1.5) {
-
-}
+@media only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {}
