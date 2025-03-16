@@ -651,6 +651,13 @@ div#googleMaps {
 	font-weight: bold;
 }
 
+.youTubePlayer iframe {
+	margin-block-start: 20px;
+	width: 100%;
+	height: auto;
+	aspect-ratio: 16/9;	
+}
+
 /*  Media query related
 	Hardboiled CSS3 Media Queries by Andy Clarke:
 	http://stuffandnonsense.co.uk/blog/about/hardboiled_css3_media_queries/

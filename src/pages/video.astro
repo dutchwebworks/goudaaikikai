@@ -4,22 +4,29 @@ import YouTubeVideos from '@/components/YouTubeVideos.astro';
 ---
 
 <Layout title="Video">
+    <script src="/public/js/hijack-youtube-links.js" slot="head-end" defer></script>
+
     <h2>Video's</h2>
 
     <h3>Wilko Lok (<a href="https://www.hikari.nl/" target="_blank">Hikari</a>) bij een gast les begin februari 2011 in onze dojo te Gouda</h3>
 
     <YouTubeVideos />
+    
+    <h2 id="youTubeTitle">Suwari waza shikko (vooruit)</h2>
+    
+    <div id="youTubePlayer" class="youTubePlayer"></div>
 
-    <p>Filmpjes opgenomen door Frank van Waart.</p>
+    <p><em>Filmpjes opgenomen door Frank van Waart.</em></p>
 
-    <h3>Dennis en Frank: Tachi waza ushiro waza ryote dori shihonage</h3>
+    <h2 style="margin-block-start: 40px;">Tachi waza ushiro waza ryote dori shihonage</h2>
 
-    <video width="640" height="480" controls loop>
+    <h3>Dennis &amp; Frank, rond het jaar 2000</h3>
+
+    <video width="640" height="480" controls loop style="margin-block-start: 20px;">
         <source src="/video/ushirowaza_ryotedori_shihonage.mp4" type="video/mp4"></video>
     </video>
 
-    <p>Filmpje opgenomen door Hans Mertens.</p>
-
+    <p><em>Filmpje opgenomen door Hans Mertens.</em></p>
 </Layout>
 
 <style>

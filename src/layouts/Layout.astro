@@ -15,15 +15,18 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="nl">
-	<head>
+	<head>		
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width" />
+
+		<slot name="head-begin" />
 
 		<title>{SITE_TITLE} {title}</title>
 
 		<meta name="generator" content={Astro.generator} />
 		
 		<meta name="author" content={AUTHOR} />
+
 
 		<meta name="description" content="Gouda Aikikai, Middenmolenlaan 68, Gymzaal basisschool 't Palet te Gouda" />
 		
@@ -34,8 +37,11 @@ const { title } = Astro.props;
 		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
 		<link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+
+		<slot name="head-end" />
 	</head>
 	<body>
+		<slot name="body-begin" />
 
 		<p class="hide non_print"><a href="#content">Skip navigation</a></p>
 
@@ -67,6 +73,8 @@ const { title } = Astro.props;
 		</div>
 
 		<SiteIsOldBanner />
+
+		<slot name="body-end" />
 	</body>
 </html>
 
