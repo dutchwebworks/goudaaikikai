@@ -4,8 +4,12 @@ import nav from "@/content/lists/nav.json";
 
 <ul id="nav">
     {
-        nav.map(({url, title, label}) => (
-            <li><a href={url} title={title}>{label}</a></li>
-        ))    
+        nav.map(({ url, title, label }) => (
+            <li>
+                <a href={url} title={title}>
+                    {label}
+                </a>
+            </li>
+        ))
     }
 </ul>

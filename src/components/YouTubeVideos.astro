@@ -3,9 +3,13 @@ import links from "@/content/lists/youtube-videos.json";
 ---
 
 <ul>
-{
-    links.map(({title, url}) => (
-            <li><a href={url} data-youtube-link>{title}</a></li> 
+    {
+        links.map(({ title, url }) => (
+            <li>
+                <a href={url} data-youtube-link>
+                    {title}
+                </a>
+            </li>
         ))
     }
 </ul>

@@ -4,10 +4,10 @@ import Footer from "@/components/Footer.astro";
 import Nav from "@/components/Nav.astro";
 import SiteIsOldBanner from "@/components/SiteIsOldBanner.astro";
 
-import { SITE_TITLE, AUTHOR } from '@/consts';
+import { SITE_TITLE, AUTHOR } from "@/consts";
 
 interface Props {
-	title: string;
+    title: string;
 }
 
 const { title } = Astro.props;
@@ -15,69 +15,67 @@ const { title } = Astro.props;
 
 <!doctype html>
 <html lang="nl">
-	<head>		
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width" />
 
-		<slot name="head-begin" />
+        <slot name="head-begin" />
 
-		<title>{SITE_TITLE} {title}</title>
+        <title>{SITE_TITLE} {title}</title>
 
-		<meta name="generator" content={Astro.generator} />
-		
-		<meta name="author" content={AUTHOR} />
+        <meta name="generator" content={Astro.generator} />
 
+        <meta name="author" content={AUTHOR} />
 
-		<meta name="description" content="Gouda Aikikai, Middenmolenlaan 68, Gymzaal basisschool 't Palet te Gouda" />
-		
-		<meta name="keywords" content="aikikai,aikido,aikibudo,budo,gouda,bart,wilffert,palet,middenmolenlaan,stage,budo,sport,martial,art,verdediging,ki,japan,sensei,morihei,ueshiba,middenmolenlaan,basisschool,gymzaal,jbn, zuid-holland, zuid holland, holland, zuid" />
+        <meta name="description" content="Gouda Aikikai, Middenmolenlaan 68, Gymzaal basisschool 't Palet te Gouda" />
 
-		<meta name="copyright" content="&copy; Gouda Aikikai 2010" />
-		
-		<link rel="icon" type="image/x-icon" href="/favicon.ico" />
+        <meta
+            name="keywords"
+            content="aikikai,aikido,aikibudo,budo,gouda,bart,wilffert,palet,middenmolenlaan,stage,budo,sport,martial,art,verdediging,ki,japan,sensei,morihei,ueshiba,middenmolenlaan,basisschool,gymzaal,jbn, zuid-holland, zuid holland, holland, zuid"
+        />
 
-		<link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
+        <meta name="copyright" content="© Gouda Aikikai 2010" />
 
-		<slot name="head-end" />
-	</head>
-	<body>
-		<slot name="body-begin" />
+        <link rel="icon" type="image/x-icon" href="/favicon.ico" />
 
-		<p class="hide non_print"><a href="#content">Skip navigation</a></p>
+        <link href="/css/screen.css" rel="stylesheet" type="text/css" media="screen" />
 
-		<div id="mobileNav">
-			<p>
-				<a href="#nav">
-					<span>Menu</span>
-					<img src="/img/mobile-nav-arrow.gif" alt="Navigatie" />
-				</a>
-			</p>
-		</div>
-		
-		<div id="main">			
-			<Header />
+        <slot name="head-end" />
+    </head>
+    <body>
+        <slot name="body-begin" />
 
-			<div id="contentwrapper">
-				<div id="content">
+        <p class="hide non_print"><a href="#content">Skip navigation</a></p>
 
-					<slot />
+        <div id="mobileNav">
+            <p>
+                <a href="#nav">
+                    <span>Menu</span>
+                    <img src="/img/mobile-nav-arrow.gif" alt="Navigatie" />
+                </a>
+            </p>
+        </div>
 
-				</div>
+        <div id="main">
+            <Header />
 
-				<div id="side">
-					<Nav />
-				</div>
-			</div>
+            <div id="contentwrapper">
+                <div id="content">
+                    <slot />
+                </div>
 
-			<Footer />
-		</div>
+                <div id="side">
+                    <Nav />
+                </div>
+            </div>
 
-		<SiteIsOldBanner />
+            <Footer />
+        </div>
 
-		<slot name="body-end" />
-	</body>
+        <SiteIsOldBanner />
+
+        <slot name="body-end" />
+    </body>
 </html>
 
-<style is:global>
-
-</style>
+<style is:global></style>

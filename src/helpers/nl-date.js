@@ -10,8 +10,8 @@ export function nlDate(dateString) {
     const dateObject = new Date(year, month, day, hour, minute, second);
 
     return dateObject.toLocaleDateString("nl-NL", {
-        year: 'numeric',
-        month: 'long',
-        day: 'numeric'
+        year: "numeric",
+        month: "long",
+        day: "numeric",
     });
 }
