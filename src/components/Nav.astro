@@ -1,10 +1,12 @@
 ---
-import nav from "@/content/lists/nav.json";
+import { getCollection } from "astro:content";
+
+const navData = await getCollection("nav");
 ---
 
 <ul id="nav">
     {
-        nav.map(({ url, title, label }) => (
+        navData.map(({ data: { url, title, label } }) => (
             <li>
                 <a href={url} title={title}>
                     {label}

@@ -1,11 +1,13 @@
 ---
-import news from '@/content/lists/news.json';
+import { getCollection } from 'astro:content';
 import { nlDate } from "@/helpers/nl-date.js";
+
+const newsData = await getCollection('news');
 ---
 
 <dl>
 {
-    news.map(({header, message, date_start}) => (
+    newsData.map(({ data: {header, message, date_start}}) => (
         <dt>{header}</dt>
 
         <dd>

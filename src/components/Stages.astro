@@ -1,6 +1,8 @@
 ---
-import stages from "@/content/lists/stages.json";
+import { getCollection } from "astro:content";
 import { nlDate } from "@/helpers/nl-date.js";
+
+const stagesData = await getCollection("stages");
 ---
 
 <table class="design" cellspacing="0">
@@ -13,7 +15,7 @@ import { nlDate } from "@/helpers/nl-date.js";
     </thead>
     <tbody>
         {
-            stages.map(({ docent, locatie, tijd, date, organisatie, bijzonderheden }) => (
+            stagesData.map(({ data: { docent, locatie, tijd, date, organisatie, bijzonderheden } }) => (
                 <tr>
                     <td>
                         <strong>{docent}</strong> ({bijzonderheden}, {organisatie})

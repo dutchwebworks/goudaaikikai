@@ -1,70 +1,84 @@
 [
     {
+        "id": 1,
         "url": "/",
         "title": "Het ontstaan van onze sportschool",
         "label": "Gouda Aikikai"
     },
     {
+        "id": 2,
         "url": "/geschiedenis",
         "title": "Geschiedenis van de school",
         "label": "Geschiedenis"
     },
     {
+        "id": 3,
         "url": "/aikido-achtergrond",
         "title": "Achtergrond informatie",
         "label": "Aikido achtergrond"
     },
     {
+        "id": 4,
         "url": "/gastenboek",
         "title": "Bekijk en teken het gastenboek",
         "label": "Gastenboek"
     },
     {
+        "id": 5,
         "url": "/foto-albums",
         "title": "Foto's van Gouda Aikikai",
         "label": "Foto album(s)"
     },
     {
+        "id": 6,
         "url": "/video",
         "title": "Filmpjes van Gouda Aikikai",
         "label": "Video"
     },
     {
+        "id": 7,
         "url": "/nieuws",
         "title": "Nieuws bericht omtrent Gouda Aikikai",
         "label": "Nieuws"
     },
     {
+        "id": 8,
         "url": "/links",
         "title": "Andere Aikido websites",
         "label": "Links"
     },
     {
+        "id": 9,
         "url": "/route",
         "title": "Print hier uw route beschrijving",
         "label": "Route"
     },
     {
+        "id": 10,
         "url": "/stages",
         "title": "Overzicht van aankomende Aikido stages",
         "label": "Stages"
     },
     {
+        "id": 11,
         "url": "/bibliotheek",
         "title": "Boeken met betrekking tot Aikido/Aikikai",
         "label": "Bibliotheek"
     },
     {
+        "id": 12,
         "url": "/exameneisen",
         "title": "Exameneisen voor kyu/dan graden",
         "label": "Exameneisen"
     },
     {
+        "id": 13,
         "url": "/disclaimer",
         "title": "Juridische informatie en kennisgevingen",
         "label": "Disclaimer"
     },
     {
+        "id": 14,
         "url": "/contact",
         "title": "Contact opnemen met de school",
         "label": "Contact"

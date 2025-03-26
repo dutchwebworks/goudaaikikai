@@ -1,12 +1,14 @@
 ---
-import links from '@/content/lists/links.json';
+import { getCollection } from 'astro:content';
 import { nlDate } from "@/helpers/nl-date.js";
+
+const linksData = await getCollection('links');
 ---
 <dl>
     {
-    links.map(({id, name, beschrijving, url, date}) => (                
+    linksData.map(({ data: {id, name, beschrijving, url, date}}) => (
             <dt id={id}>
-                <a href={url} title=`Geplaats op: {nlDate(date)}` target="_blank">{name}</a>
+                <a href={url} title={`Geplaatst op: ${nlDate(date)}`} target="_blank">{name}</a>
             </dt>
 
             <dd>{beschrijving}</dd>

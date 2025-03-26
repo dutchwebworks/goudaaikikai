@@ -1,12 +1,14 @@
 ---
-import guestbook from '@/content/lists/guestbook.json';
+import { getCollection } from 'astro:content';
 import { nlDate } from "@/helpers/nl-date.js";
+
+const guestbookData = await getCollection('guestbook');
 ---
 
 <div id="messagelist">
     <dl>
         {
-            guestbook.map(({name, message, date}) => (
+            guestbookData.map(({ data: {name, message, date}}) => (
                 <dt>{name}</dt>
 
                 <dd>

@@ -1,10 +1,12 @@
 ---
-import links from "@/content/lists/youtube-videos.json";
+import { getCollection } from "astro:content";
+
+const youtubeVideosData = await getCollection("youtubeVideos");
 ---
 
 <ul>
     {
-        links.map(({ title, url }) => (
+        youtubeVideosData.map(({ data: { title, url } }) => (
             <li>
                 <a href={url} data-youtube-link>
                     {title}
