@@ -1,5 +1,6 @@
 ---
-import books from '@/content/lists/books.json';
+import { getCollection } from 'astro:content';
+const booksData = await getCollection('books');
 ---
 
 <table class="design" cellspacing="0" id="results">
@@ -14,7 +15,7 @@ import books from '@/content/lists/books.json';
     </thead>
     <tbody>
         {
-        books.map(({auteur, titel, jaar, taal, omschrijving, img, isbn, homepage}) => (
+        booksData.map(({ data: { auteur, titel, jaar, taal, omschrijving, img, isbn, homepage } }) => (
                 <tr>
                     <td><img src=`/img/boeken/${img}` alt={titel} width="50" loading="lazy"></td>
                     <td><strong>{auteur}</strong></td>
