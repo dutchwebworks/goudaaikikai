@@ -1,0 +1,16 @@
+---
+import { getCollection } from "astro:content";
+const examsKyuCollection = (await getCollection("examsKyu")).sort((a, b) => b.id.localeCompare(a.id));
+---
+
+<ul>
+    {
+        examsKyuCollection.map(({ id, data: { title } }) => (
+            <>
+                <li>
+                    <a href={"/exameneisen/" + id}>{title}</a>
+                </li>
+            </>
+        ))
+    }
+</ul>

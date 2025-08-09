@@ -1,4 +1,4 @@
-import { file } from "astro/loaders";
+import { file, glob } from "astro/loaders";
 import { defineCollection, z } from "astro:content";
 
 export const collections = {
@@ -15,6 +15,16 @@ export const collections = {
             img: z.string(),
             isbn: z.string(),
             homepage: z.string(),
+        }),
+    }),
+    examsKyu: defineCollection({
+        loader: glob({
+            pattern: "**/*.md",
+            base: "src/content/exams-kyu",
+        }),
+        schema: z.object({
+            title: z.string(),
+            description: z.string(),
         }),
     }),
     guestbook: defineCollection({

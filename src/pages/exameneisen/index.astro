@@ -1,5 +1,6 @@
 ---
 import Layout from "@/layouts/Layout.astro";
+import ExamsKyuList from "@/components/ExamsKyuList.astro";
 ---
 
 <Layout title="Examen eisen">
@@ -19,14 +20,8 @@ import Layout from "@/layouts/Layout.astro";
     </p>
 
     <h3>Kyu examen eisen</h3>
-    <ul>
-        <li><a href="/exameneisen/6_kyu">Aikikai 6e kyu</a></li>
-        <li><a href="/exameneisen/5_kyu">Aikikai 5e kyu</a></li>
-        <li><a href="/exameneisen/4_kyu">Aikikai 4e kyu</a></li>
-        <li><a href="/exameneisen/3_kyu">Aikikai 3e kyu</a></li>
-        <li><a href="/exameneisen/2_kyu">Aikikai 2e kyu</a></li>
-        <li><a href="/exameneisen/1_kyu">Aikikai 1e kyu</a></li>
-    </ul>
+
+    <ExamsKyuList />
 
     <h3>Dan examen eisen</h3>
     <ul>

@@ -1,0 +1,29 @@
+---
+import Layout from "@/layouts/Layout.astro";
+import { type CollectionEntry, getCollection, render } from "astro:content";
+
+export async function getStaticPaths() {
+    const posts = await getCollection("examsKyu");
+    return posts.map((post) => ({
+        params: { slug: post.id },
+        props: post,
+    }));
+}
+
+type Props = CollectionEntry<"examsKyu">;
+
+const post = Astro.props;
+const { Content } = await render(post);
+
+const metaData = {
+    title: post.data.title,
+    description: post.data.description,
+    canonical: `artikelen/${post.id}`,
+};
+---
+
+<Layout title={metaData.title}>
+    <main id="main">
+        <Content />
+    </main>
+</Layout>
